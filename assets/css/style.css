@@ -522,3 +522,61 @@ li {
     position: relative;
     left: 75%;
 }
+
+/* Sign Up form */
+
+#form-section {
+    clear: both;
+    height: 60%;
+    width: 40%;
+    background-color: #3a3a3a;
+    margin: 8% auto 8%;
+    padding: 4%;
+}
+
+.signup-form {
+    margin: 1%;
+    color: #fff;
+    background-color: #3a3a3a;
+    max-width: 90%;
+    padding: 3%;
+    border: 1px solid #fff;
+}
+
+.signup-form>h2 {
+    color: #fff;
+    margin-bottom: 4%;
+    font-size: 140%;
+    font-weight: 190;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #e03912;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3b624e;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #3b624e;
+}
+
