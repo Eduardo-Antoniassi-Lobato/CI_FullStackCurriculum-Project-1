@@ -657,3 +657,242 @@ tr:nth-child(even) {
     margin-bottom: 2%;
 }
 
+/* Media Queries */
+
+@media screen and (max-width:1200px) {
+
+    /* Index Page */
+
+    #section-four-text {
+
+        margin: 2%;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .text-wrapper-2 {
+        margin-left: 0%;
+    }
+
+    /* Contact Page */
+
+    #contact-headline-text {
+       
+        margin: 20% auto 5% auto;
+        height: 20%;
+    }    
+       
+    #iframe-container {
+
+       display: block;
+       margin: 5%;      
+    }
+}
+
+
+@media screen and (max-width:820px) {
+
+    /* Index Page */
+
+    #logo {
+        float: left;
+        font-size: 160%;
+        margin-left: 50px;
+        height: 75%;
+        margin-bottom: 0%;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 0%;
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    #hompage-headline-text {
+        width:80%;
+    }
+
+    #homepage-headline-text h1 {
+        font-size: 200%;
+    }
+
+    #homepage-headline-text {
+        height: 20%;
+        margin-top: 140px;
+        padding: 4%;
+    }
+
+    #section-three {
+
+        width: 100%;
+        height: auto;
+        margin: 50px auto;
+        text-align: center !important;
+    }
+
+    #left-container {
+
+        width: 70%;
+        height: 500px;
+        float: none;
+        margin: 1% auto 3%;
+    }
+
+    #right-container {
+
+        width: 70%;
+        height: 500px;
+        border: 1px solid #252525;
+        float: none;
+        margin: 1% auto 2%;
+    }
+
+    #section-four h2 {
+        font-size: 22px;
+    }
+
+    #section-four i {
+        font-size: 40px;
+    }
+
+    #contact-headline-text {
+        width: 60%;
+        font-size: 50%;
+        margin-top: 140px;
+    }
+
+    #contact-headline-text h3 {
+        font-size: 20px;
+    }
+
+    /* Wisdom Drops Page */
+
+    .container {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    #section-four {
+        width: 90%;
+        padding: 1%;
+        padding-bottom: 5%;
+    }
+
+    #section-four-text h2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    #section-four-text i {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #text-section-two h2 {
+        font-size: 22px;
+    }
+
+    /* Contact Page */
+
+    #contact-headline-text {
+        width: 70%;
+    }
+
+    #form-section {
+        width: 70%;
+    }
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #iframe-text-container {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* Index Page */
+
+    #text-section-two h2 {
+        font-size: 20px;
+    }
+
+    #section-quote-text1 {
+        font-size: 12px;
+    }
+
+    /* Wisdom Drops Page */
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .w-1,
+    .w-2,
+    .w-3,
+    .w-4,
+    .w-5,
+    .w-6 {
+        grid-column: span 1;
+    }
+      
+    /* Contact Page */
+
+    #contact-headline-text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    /* Index Page */
+
+    #text-section-two h2 {
+        font-size: 18px;
+    }
+
+    #left-container-text {
+        font-size: 16px;    
+    }
+    
+    #left-container-text h2 {
+    
+        font-size: 21px;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+    }
+
+    #section-four {
+        padding-top:0%;
+        padding-left: 0%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin: 3% auto;
+        width: 85%;
+    }
+
+    #section-quote1 {
+        width: 80%;
+        padding-right: 6%;
+    }
+}
