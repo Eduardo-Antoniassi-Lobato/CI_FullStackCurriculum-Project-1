@@ -501,3 +501,24 @@ li {
     font-size: 90%;
 }
 
+/* Section Quote 2 */
+
+#section-quote {
+    width: 70%;
+    height: auto;
+    margin: 7% auto 7%;
+    background-color: #b4a592;
+    padding: 6% 3% 5% 5%;
+}
+
+#section-quote-text {
+    width: 70%;
+    height: auto;
+}
+
+#section-quote-text p {
+    margin-top: 3%;
+    font-weight: bold;
+    position: relative;
+    left: 75%;
+}
