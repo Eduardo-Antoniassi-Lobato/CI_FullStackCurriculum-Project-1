@@ -272,3 +272,81 @@ h2 {
     position: relative;
     left: 75%;
 }
+
+/* Section Four */
+
+#section-four {
+    width: 85%;
+    height: auto;
+    margin: 6% auto;
+    background-color: #b4a592;
+    padding: 4%;
+}
+
+#section-four-text {
+    width: 90%;
+    height: auto;
+}
+
+#section-four-text i {
+    font-size: 60px;
+    display: block;
+}
+
+#section-four-text i:hover {
+    color: #c08f3b;
+}
+
+#section-four-text h2 {
+
+    margin-bottom: 3%;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.text-wrapper-2 {
+    margin-left: 40%;
+}
+
+.text-wrapper-1 i {
+    color: #3b624e;
+}
+
+.text-wrapper-2 i {
+    color: #e03912;
+}
+
+.text-wrapper-3 i {
+    color: #495460;
+}
+
+/* Footer */
+
+footer {
+    height: 5%;
+    width: 100%;
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links>li {
+    display: inline;
+}
+
+.footer-links i {
+    font-size: 160%;
+    margin: 0.5%;
+    padding: 2%;
+    color: #252525;
+}
+
+.footer-links i:hover {
+    color: #c08f3b;
+}
