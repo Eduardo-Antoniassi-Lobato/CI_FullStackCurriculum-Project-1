@@ -475,3 +475,29 @@ li {
     }
 }
 
+/* Contact Page */
+
+/* Contact Text section */
+
+#contact-headline-text {
+    width: 30%;
+    height: auto;
+    clear: both;
+    margin: 10% auto 10% auto;
+    padding: 2% 2% 2% 2%;
+    border: 1px solid #252525;
+    margin-bottom: 20px;
+}
+
+#contact-headline-text h1 {
+    font-size: 400%;
+}
+
+#contact-headline-text h3 {
+    font-size: 130%
+}
+
+#contact-headline-text a {
+    font-size: 90%;
+}
+
