@@ -1,108 +1,267 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Eduardo-Antoniassi-Lobato,
+Project 1 - Full Stack Curriculum - Code Institute
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Student: Eduardo Antuniassi Lobato
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+M. Arahant is an imaginary Project to connect modern people to ancient knowledge, now with a focus on buddhism. Most times teachings or knowledge connected to a religion, as here in this case, is wrogly judged and misunderstood. The core of what is today called buddhism is based mostly on logical and psychalogical observations on matters that permeates our everyday reality. Concepts like the nature of mind, how to concentrate in an effective way and exercices to develop all these concepts through own experience are present in these teachings.
 
-## Gitpod Reminders
+The idea of the project is to bring this content through texts, maybe in the future videos and self-developed apps.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The web site is separated in three parts:
 
-`python3 -m http.server`
+Index-Page: With description of the idea of the project.
 
-A blue button should appear to click: _Make Public_,
+wisdom-drops-Page: where some of this knowledge can be read.
 
-Another blue button should appear to click: _Open Browser_.
+Contact-Page: with a sign up form to a newsletter, location of an imaginary space and a link to google store to the apps developed by the project.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Code used form external sources:
 
-A blue button should appear to click: _Make Public_,
+My header and footer where mainly based on the Love running Project present in this course:
 
-Another blue button should appear to click: _Open Browser_.
+Original Header Code:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<header>
+        <a href="index.html">
+        <h1 id="logo">Love Running</h1>   
+    </a>
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="signup.html">Sign Up</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>           
+            <li> 
+                <a href="index.html" class="active">Home</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
 
-To log into the Heroku toolbelt CLI:
+ Original styles:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+   
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
 
-------
+#menu, #logo {
+    line-height: 75px;
+}
 
-## Release History
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Print screen of modified version in this project:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Header-image](./assets/images/Header-print.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Footer-image](./assets/images/Footer-print.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The animation section were based on Annie Huang's git hub repository.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Original Code:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+h1 {
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+/*  // If you don't have the display: grid, place-content and text-align version in the body,
+  // you can still control the h1 width (default is full width 100%) by using the max-content value.
+  outline: 2px solid red;
+  width: max-content;*/
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+}
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+h1::before,
+h1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+h1::before {
+  background: var(--bg-color);
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  /* the forwards keyword means it doesn't go back to the start position */
+  /*animation: typewriter 1s ease forwards; */
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  /* steps will make it jump every characters (we got total 24 characters), Very nice effect, didn't know we can do that.*/
+  /* Give a 1s delay make the type writer (blink effect) more mirroring to a 'ready to type' effect. */
+  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+}
 
-------
+h1::after {
+  width: 0.125em;
+  background: black;
+  animation:
+    typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite; /* I found it can go without step(24), but with the step(24) here it the jumping on the blink effect is more prominent */
+}
 
-## FAQ about the uptime script
+.subtitle {
+  color: hsla(0, 0%, 0%, 0.7);
+  font-size: 2rem;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+@keyframes typewriter {
+  /* If your start position is the same as your initial value of the page layout, then you don't need to have a from in the keyframe */
+  to {
+    left: 100%;
+  }
+}
 
-**How will this affect me?**
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Final result on this project:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Animation](./assets/images/Animation-print.png)
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The form section of this web site were also based on the respective one of Love Running course Module.
 
-**Can I opt out?**
+Original Code:
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <label for="road" class="b" >Road</label>
+            <input type="radio" class="radio-button" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" class="radio-button" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" class="radio-button" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button"  type="submit" value="Let's Run!">
+        </form>
+    </section>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+/*Form*/
 
-**Anything more?**
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
----
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
 
-Happy coding!
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px; 
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.radio-button {
+    margin-right: 4px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;    
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+
+![Form](/assets/images/Form-print.png)
+
+
+Web site address:
+
+https://eduardo-antoniassi-lobato.github.io/CI_FullStackCurriculum-Project-1/
