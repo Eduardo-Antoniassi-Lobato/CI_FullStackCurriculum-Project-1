@@ -101,3 +101,174 @@ h2 {
 #homepage-headline-text i {
     color: #c08f3b;
 }
+
+/* section-two */
+
+#container-section-two {
+    height: 450px;
+    width: 85%;
+    margin: 5% auto;
+    background-color: #3a3a3a;
+    padding: 1% 2%;
+}
+
+#text-section-two {
+    height: 400px;
+    width: 95%;
+    margin: 2% auto 1% auto;
+    border: 1.5px solid #fff;
+}
+
+#text-section-two h2 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 5% 2% 2% 2%;
+    font-weight: 200;
+}
+
+/* Animation section */
+
+#animation-section {
+    width: max-content;
+    height: 20%;
+    margin: 12% auto;
+}
+
+#animation-section h2 {
+    font-size: 190%;
+    letter-spacing: 1%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+#animation-section p {
+    font-size: 140%;
+    position: relative;
+    left: 75%;
+    font: bolder;
+}
+
+/* Animation Code */
+
+#animation-section h2::before,
+#animation-section h2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#animation-section h2::before {
+    background: #fff;
+    animation:
+        typewriter 2s steps(14) 9s forwards;
+}
+
+#animation-section h2::after {
+    width: 0.125em;
+    background: black;
+    animation:
+        typewriter 2s steps(14) 9s forwards,
+        blink 0.75s steps(14) infinite;
+}
+
+#animation-section p {
+    opacity: 0;
+    animation:
+        fadeIn 9s ease 10s forwards;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* section three */
+
+#section-three {
+
+    width: 750px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+#left-container {
+
+    width: 49%;
+    height: 500px;
+    border: 1px solid #252525;
+    float: left;
+}
+
+#right-container {
+
+    width: 50%;
+    height: 500px;
+    border: 1px solid #252525;
+    float: right;
+}
+
+#right-container-picture {
+
+    width: 100%;
+    height: 100%;
+    background: url(../images/Smoke.jpg) no-repeat;
+    background-size: cover;
+}
+
+#left-container-text {
+
+    font-size: 20px;
+    text-align: right;
+    padding: 100px 20px 100px 20px;
+
+}
+
+#left-container-text h2 {
+
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+/* Section Quote 1 */
+
+#section-quote1 {
+    width: 60%;
+    height: auto;
+    margin: 7% auto 7%;
+    padding: 6% 3% 5% 5%;
+    border: 1px solid #252525;
+}
+
+#section-quote-text1 {
+    width: 70%;
+    height: auto;
+}
+
+#section-quote-text1 p {
+    margin-top: 3%;
+    font-weight: bold;
+    position: relative;
+    left: 75%;
+}
