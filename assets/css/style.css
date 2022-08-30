@@ -81,3 +81,23 @@ h2 {
 .active {
     border-top: 1px solid #3a3a3a;
 }
+
+/* Head Line Text */
+
+#homepage-headline-text {
+    width: 85%;
+    height: 450px;
+    clear: both;
+    margin: 85px auto 60px auto;
+    padding: 70px 0 10px 80px;
+    border: 1px solid #252525;
+    margin-bottom: 20px;
+}
+
+#homepage-headline-text h1 {
+    font-size: 500%;
+}
+
+#homepage-headline-text i {
+    color: #c08f3b;
+}
