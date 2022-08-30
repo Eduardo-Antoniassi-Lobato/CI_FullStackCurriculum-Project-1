@@ -633,3 +633,27 @@ th {
 tr:nth-child(even) {
     background-color: #b4a592;
 }
+
+/* iframe - Google Map */
+
+#iframe-container {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#iframe-text-container {
+    width: 55%;
+    height: 40%;
+    margin-top: 6%;
+    margin: 5%;
+    padding: 2%;
+    border: 1px solid #252525;
+}
+
+#iframe-text-container h2 {
+    margin-bottom: 2%;
+}
+
