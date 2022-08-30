@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Index Page */
+
+/* Headings and Logo */
+
+header {
+    height: 85px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    z-index: 14;
+}
+
+h1,
+h2 {
+    font-family: Source Serif Pro, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 160%;
+    margin-left: 50px;
+    height: 75%;
+    margin-bottom: 25px;
+}
+
+#logo span {
+    border: 2px solid #252525;
+    border-radius: 1%;
+}
+
+
+/* navigation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+    float: right;
+    background-color: #fff;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a:hover {
+    border-top: 1px solid #3a3a3a;
+}
+
+.active {
+    border-top: 1px solid #3a3a3a;
+}
