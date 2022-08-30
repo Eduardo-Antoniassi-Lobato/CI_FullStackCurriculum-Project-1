@@ -580,3 +580,56 @@ li {
     color: #3b624e;
 }
 
+/* App link section */
+
+#app-section {
+    width: 60%;
+    height: 20%;
+    margin: 10% 30% 7% 15%;
+
+}
+
+#app-section h2 {
+    font-size: 190%;
+    letter-spacing: 1%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+#app-section i {
+    margin-left: 1.5%;
+    color: #37587c;
+}
+
+#app-section i:hover {
+    color: #c08f3b;
+}
+
+/* ]Timetable Section */
+
+#timetable h2 {
+    width: max-content;
+    margin: 3% auto;
+    text-align: center;
+    border: 1px solid #252525;
+    padding: 0.5%;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 2% auto 8%;
+}
+
+td,
+th {
+    border: 1px solid #252525;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #b4a592;
+}
