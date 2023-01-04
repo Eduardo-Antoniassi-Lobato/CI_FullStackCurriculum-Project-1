@@ -137,6 +137,8 @@ nav #menu {
     width: max-content;
     height: 20%;
     margin: 12% auto;
+    overflow-x: hidden;
+    
 }
 
 #animation-section h2 {
