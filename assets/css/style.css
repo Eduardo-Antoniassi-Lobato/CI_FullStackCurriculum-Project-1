@@ -360,6 +360,10 @@ li {
 
 /* Grid Gallery */
 
+#grid-container {
+    overflow-x: hidden;
+}
+
 .container {
     margin-top: 6%;
     display: grid;
@@ -414,13 +418,6 @@ li {
     opacity: 1;
     animation: fadeIn 1.5s ease forwards;
     padding: 1em;
-    width: 100%;
-}
-
-.gallery-item:hover .text #sha {
-    opacity: 1;
-    animation: fadeIn 1.5s ease forwards;
-    padding: 1em 4em 1em 0.3em;
     width: 100%;
 }
 
@@ -688,6 +685,15 @@ tr:nth-child(even) {
         margin-left: 0%;
     }
 
+    /* Wisdom Drops Page */
+
+    .gallery-item:hover .sha {
+        opacity: 1;
+        animation: fadeIn 1.5s ease forwards;
+        padding: 1em 4em 1em 0.3em;
+        width: 100%;
+    }
+
     /* Contact Page */
 
     #contact-headline-text {
@@ -702,12 +708,7 @@ tr:nth-child(even) {
        margin: 5%;      
     }
    
-    .gallery-item:hover .sha {
-        opacity: 1;
-        animation: fadeIn 1.5s ease forwards;
-        padding: 1em 4em 1em 0.3em;
-        width: 100%;
-    }
+  
 }
 
 
@@ -876,12 +877,20 @@ tr:nth-child(even) {
     .w-6 {
         grid-column: span 1;
     }
+
+    .gallery-item:hover .sha {
+        opacity: 1;
+        animation: fadeIn 1.5s ease forwards;
+        padding: 1em;
+        width: 100%;
+    }
       
     /* Contact Page */
 
     #contact-headline-text {
         font-size: 10px;
     }
+
 }
 
 @media screen and (max-width:400px) {
