@@ -547,6 +547,15 @@ li {
     padding: 4%;
 }
 
+#a-form-section {
+    display: block;
+    height: 7px; 
+    margin-top: -7px;
+    visibility: hidden;
+}
+
+/* MediaFrames = height margin top 100px */
+
 .signup-form {
     margin: 1%;
     color: #fff;
@@ -713,7 +722,6 @@ tr:nth-child(even) {
   
 }
 
-
 @media screen and (max-width:820px) {
 
     /* Index Page */
@@ -795,6 +803,13 @@ tr:nth-child(even) {
 
     .container {
         margin-top: 12%;
+    }
+
+    /* Contact Page */
+
+    #a-form-section {
+        height: 115px; 
+        margin-top: -115px;    
     }
 }
 
