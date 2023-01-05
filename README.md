@@ -203,7 +203,7 @@ Original Code:
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
