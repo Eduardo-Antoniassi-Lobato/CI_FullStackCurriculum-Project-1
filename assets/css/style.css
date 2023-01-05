@@ -613,7 +613,7 @@ li {
 
 #app-section h2 {
     font-size: 190%;
-    letter-spacing: 1%;
+    letter-spacing: 3px;
     margin-bottom: 2%;
     position: relative;
 }
@@ -627,7 +627,7 @@ li {
     color: #c08f3b;
 }
 
-/* ]Timetable Section */
+/* Timetable Section */
 
 #timetable h2 {
     width: max-content;
