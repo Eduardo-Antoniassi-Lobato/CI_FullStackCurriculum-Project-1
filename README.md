@@ -81,6 +81,8 @@ Since the website is based on the same texts of the tradition, the main idea of 
 
 The white colour is associated with knowledge and learning in the Tibetan tradition and is the basic colour for the Website for the same reason. The #252525 colour was used for the fonts over the white and brighter backgrounds to keep the text always easy to read, but not overtly black and fitting to the pastel tones of the Website.
 
+### Palette of Colours
+
 <img src="./assets/images/palette1.png" width="800">
 
 The palette of colours would resemble both the Tibetan and Zen types of expression with its pastel tenses: The first with a more colourful and bright spectrum and the second often looking for simplicity and austerity. 
@@ -100,8 +102,10 @@ Home Page<br>
 <img src="./assets/images/M.%20Arahant%20-%20Home%20page%202.png" width="800">
 <img src="./assets/images/M.%20Arahant%20-%20Home%20page%203.png" width="800">
 <img src="./assets/images/M.%20Arahant%20-%20Home%20page%204.png" width="800">
+
 Wisdom-drops Page<br>
 <img src="./assets/images/Wisdom-drops.png" width="800">
+
 Contact Page<br>
 <img src="./assets/images/M.%20Arahant%20-%20Contact.png" width="800">
 
