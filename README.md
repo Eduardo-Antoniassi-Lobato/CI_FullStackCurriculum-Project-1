@@ -81,7 +81,7 @@ Since the website is based on the same texts of the tradition, the main idea of 
 
 The white colour is associated with knowledge and learning in the Tibetan tradition and is the basic colour for the Website for the same reason. The #252525 colour was used for the fonts over the white and brighter backgrounds to keep the text always easy to read, but not overtly black and fitting to the pastel tones of the Website.
 
-![Palette of colors](./assets/images/palette1.png)
+<img src="./assets/images/palette1.png" width="800">
 
 The palette of colours would resemble both the Tibetan and Zen types of expression with its pastel tenses: The first with a more colourful and bright spectrum and the second often looking for simplicity and austerity. 
 The simplicity of the Zen was for the most part applied to the big elements of the websites, like boxes and most images on the contact page, whilst the "Tibetan" tones were used more discreetly unto the smaller elements, such as the orange circle in the logo, the golden icon in the hero image and the many other icons throughout the pages.
@@ -96,44 +96,14 @@ The images used in this project were all gathered from the Unsplash website. The
 
 ### Wireframes
 Home Page<br>
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%201.png)
-<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style> 
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%202.png)
-<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style>
-
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%203.png)<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style>
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%204.png)<br>
-<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style>
+<img src="./assets/images/M.%20Arahant%20-%20Home%20page%201.png" width="800">
+<img src="./assets/images/M.%20Arahant%20-%20Home%20page%202.png" width="800">
+<img src="./assets/images/M.%20Arahant%20-%20Home%20page%203.png" width="800">
+<img src="./assets/images/M.%20Arahant%20-%20Home%20page%204.png" width="800">
 Wisdom-drops Page<br>
-![Wisdom-drops Page Wireframe](./assets/images/Wisdom-drops.png)<br>
-<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style>
+<img src="./assets/images/Wisdom-drops.png" width="800">
 Contact Page<br>
-![Events Page Wireframe](./assets/images/M.%20Arahant%20-%20Contact.png)<br>
-<style type="text/css">
-    img {
-        width: 55%;
-    }
-</style>
+<img src="./assets/images/M.%20Arahant%20-%20Contact.png" width="800">
 
 ### Discrepancies in Design
 The design was first developed for the mobile device for the sake of understanding the complexities of the colours and forms on an uprising scale. Since this was my first project in this direction, it would be easier to insert and develop new elements on a bigger screen afterwards than the other way around. Unfortunately, the rectangular-shaped text boxes were not always possible to be applied in the mobile version. Except for the logo being placed over the links, the navbar and footer remained practically the same for the mobile and desktop versions on all pages.  The images and texts of the home page though were placed in the mobile version as a continuous flow of objects, when scrolled down. The grid imagined in the wisdom drops page was inevitably only possible in the desktop version.
