@@ -1,6 +1,6 @@
 # M. Arahant - Testing Documentation
 
-The Main README documentation [README.md](README.md)
+Main README documentation [README.md](README.md)
 
 [Link to the live Website.](https://eduardo-antoniassi-lobato.github.io/CI_FullStackCurriculum-Project-1/)
 
