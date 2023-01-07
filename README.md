@@ -44,10 +44,6 @@ This project was conceived for the completion of the first Milestone project for
 
 The link to the live website can be found [here](https://eduardo-antoniassi-lobato.github.io/CI_FullStackCurriculum-Project-1/).
 
-
-
-
-
 *** 
 ## UX
 
@@ -100,17 +96,44 @@ The images used in this project were all gathered from the Unsplash website. The
 
 ### Wireframes
 Home Page<br>
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%201.png)<br>
-<br>
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%202.png)<br>
-<br>
-![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%203.png)<br>
-<br>
+![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%201.png)
+<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style> 
+![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%202.png)
+<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style>
+
+![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%203.png)<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style>
 ![Home Page Wireframe](./assets/images/M.%20Arahant%20-%20Home%20page%204.png)<br>
+<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style>
 Wisdom-drops Page<br>
 ![Wisdom-drops Page Wireframe](./assets/images/Wisdom-drops.png)<br>
+<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style>
 Contact Page<br>
 ![Events Page Wireframe](./assets/images/M.%20Arahant%20-%20Contact.png)<br>
+<style type="text/css">
+    img {
+        width: 55%;
+    }
+</style>
 
 ### Discrepancies in Design
 The design was first developed for the mobile device for the sake of understanding the complexities of the colours and forms on an uprising scale. Since this was my first project in this direction, it would be easier to insert and develop new elements on a bigger screen afterwards than the other way around. Unfortunately, the rectangular-shaped text boxes were not always possible to be applied in the mobile version. Except for the logo being placed over the links, the navbar and footer remained practically the same for the mobile and desktop versions on all pages.  The images and texts of the home page though were placed in the mobile version as a continuous flow of objects, when scrolled down. The grid imagined in the wisdom drops page was inevitably only possible in the desktop version.
